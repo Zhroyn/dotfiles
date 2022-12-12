@@ -67,8 +67,8 @@ for file in .[!.]*; do
 
     # Create symlink for files inside ~/dotfiles/
     rm -rf ~/$file # Remove any remaining broken symlink
-    ln -s ./$file ~/$file
-    echo "Symlink created: ~/$name -> ~/$file"
+    ln -s $PWD/$file ~/$file
+    echo "Symlink created: $PWD/$file -> ~/$file"
 
 done
 
