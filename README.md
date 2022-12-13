@@ -6,7 +6,7 @@ This is my dotfiles for the configuration in Linux, which are expected to includ
 
 #### Installaion
 
-To automatically creating symlinks of all the dotfiles in the `dotfiles` directory, you can firstly do:
+To automatically creating symlinks of all the dotfiles in the `dotfiles` directory, you can firstly change directory to `dotfiles` by:
 ```shell
 cd path/to/dotfiles
 ```
