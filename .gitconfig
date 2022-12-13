@@ -1,0 +1,12 @@
+[user]
+	name = Pxtkn
+	email = hr.zheng@outlook.com
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+	aa = add .
+	cg = config --global
+	cf = cat-file -p
+	lf = ls-files -s
