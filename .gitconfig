@@ -10,3 +10,11 @@
 	cg = config --global
 	cf = cat-file -p
 	lf = ls-files -s
+[merge]
+	tool = code
+[mergetool "code"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = code
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
