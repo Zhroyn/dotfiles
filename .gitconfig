@@ -2,16 +2,16 @@
 	name = Pxtkn
 	email = hr.zheng@outlook.com
 [alias]
-	co = checkout
-	br = branch
-	st = status
-	ci = commit
 	aa = add .
-	cg = config --global
+	br = branch
 	cf = cat-file -p
+	cg = config --global
+	ci = commit
+	cia = commit -am
+	co = checkout
 	lf = ls-files -s
 	re = remote
-	cia = commit -am
+	st = status
 [merge]
 	tool = code
 [mergetool "code"]
