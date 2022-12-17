@@ -10,6 +10,7 @@
 	cg = config --global
 	cf = cat-file -p
 	lf = ls-files -s
+	re = remote
 [merge]
 	tool = code
 [mergetool "code"]
