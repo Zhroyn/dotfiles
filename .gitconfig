@@ -11,6 +11,7 @@
 	cf = cat-file -p
 	lf = ls-files -s
 	re = remote
+	cia = commit -am
 [merge]
 	tool = code
 [mergetool "code"]
