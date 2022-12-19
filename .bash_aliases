@@ -4,6 +4,8 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~"
 alias -- -="cd -"
+alias cdtr="cd ~/repositories"
+alias cdtt="cd ~/repositories/test"
 
 alias path='echo -e $PATH//:/\\n'
 
