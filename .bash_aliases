@@ -14,3 +14,5 @@ alias tmk='tmux kill-session'
 alias tms='tmux new -s'
 alias tma='tmux a'
 
+alias mkcl='make clean'
+
