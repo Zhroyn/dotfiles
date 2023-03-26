@@ -24,7 +24,7 @@ for file in .[!.]*; do
         continue
     fi
 
-    # Create symlink for files inside ~/dotfiles/
+    # Create symlink for files in ~/dotfiles/
     rm -rf ~/$file # Remove any remaining broken symlink
     ln -s $PWD/$file ~/$file
     echo "Symlink created: $PWD/$file -> ~/$file"
