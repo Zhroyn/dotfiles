@@ -12,7 +12,7 @@
 	lf = ls-files -s
 	re = remote
 	cia = commit -am
-	logg = log --pretty=format:'%h %cd %s'
+	logg = log --pretty=format:'%h %cd %s' --graph
 [merge]
 	tool = code
 [difftool "code"]
