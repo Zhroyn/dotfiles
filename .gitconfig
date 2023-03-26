@@ -2,21 +2,22 @@
 	name = Pxtkn
 	email = hr.zheng@outlook.com
 [alias]
-	aa = add .
-	br = branch
-	cf = cat-file -p
-	cg = config --global
-	ci = commit
-	cia = commit -am
 	co = checkout
+	br = branch
+	st = status
+	ci = commit
+	aa = add .
+	cg = config --global
+	cf = cat-file -p
 	lf = ls-files -s
 	re = remote
-	st = status
+	cia = commit -am
+	logg = log --pretty=format:'%h %cd %s'
 [merge]
 	tool = code
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
 [mergetool "code"]
 	cmd = code --wait $MERGED
 [diff]
 	tool = code
-[difftool "code"]
-	cmd = code --wait --diff $LOCAL $REMOTE
